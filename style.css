@@ -14,12 +14,12 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1, h3 {
     color: #333;
 }
 
 button {
-    background: #0077ff;
+    background: #333;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -30,7 +30,7 @@ button {
 }
 
 button:hover {
-    background: #005fcc;
+    background: #171717;
 }
 
 .card {
@@ -55,9 +55,12 @@ body.dark-mode {
 
 
 #themeToggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     padding: 8px 16px;
     border: none;
-    background-color: #007BFF;
+    background-color: #333;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -65,5 +68,5 @@ body.dark-mode {
 }
 
 #themeToggle:hover {
-    background-color: #0056b3;
+    background-color: #171717;
 }
